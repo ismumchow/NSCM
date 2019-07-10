@@ -1,0 +1,12 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+.btn {
+    transition: all .5 ease;
+}
+.btn:hover {
+ cursor: pointer;
+ background: #cdcdcd;
+ transform: scale(1.2);
+
+}
