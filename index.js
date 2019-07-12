@@ -24,11 +24,14 @@ window.onload = function () {
 
         }
         subtractBtn.onclick = function addToSalaryCap() {
-            
+            if (salary <= 10) {
+                alert('you are under the salary cap');
+            }
+            else {
             salary -= 10.0;
             console.log("the value was just subtracted, it is now " + salary);
             salary_span.innerHTML = salary;
-
+            }
         }
 
 
